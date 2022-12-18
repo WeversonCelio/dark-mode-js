@@ -23,11 +23,11 @@ function changeText(){
     const darkMode = 'Dark Mode';
 
     if(body.classList.contains(darkModeClass)){
-        button.innerHTML = darkMode;
+        button.innerHTML = LightMode;
         h1.innerHTML =  darkMode + ": ON";
         return;   
     }
-    button.innerHTML = LightMode;
+    button.innerHTML = darkMode;
     h1.innerHTML =  LightMode + ": ON";
 }
 
